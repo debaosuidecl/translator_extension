@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "ReplaceImg",
+    "description": "replace every image with random image",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "http://*/",
+        "https://*/"
+    ],
+    "version": "1.0.0"
+}
