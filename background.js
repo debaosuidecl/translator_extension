@@ -1,4 +1,4 @@
-let domain = 'https://dataowner.powersms.land';
+let domain = "";// REPLACE WITH ACTUAL BASE DOMAIN
 async function ajaxCall(type, path, data, callback, errCallback) {
     try {
         const result = await fetch(domain + '/' + path, {
