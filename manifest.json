@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "ReplaceImg",
-    "description": "replace every image with random image",
+    "name": "TRANSLATOR",
+    "description": "TRANSLATE ALL COMMENTS ON YOUTUBE TO ENGLISH",
     "background": {
         "service_worker": "background.js"
     },
